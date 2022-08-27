@@ -1,7 +1,7 @@
 # masonite-localization
 
 <p align="center">
-  <img src="https://banners.beyondco.de/Masonite%20Modules.png?theme=light&packageManager=pip+install&packageName=masonite-modules&pattern=charlieBrown&style=style_2&description=Add+locale+support+in+your+application.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50">
+  <img src="https://banners.beyondco.de/Masonite%20Localization.png?theme=light&packageManager=pip+install&packageName=masonite-localization&pattern=charlieBrown&style=style_2&description=Add+locale+support+in+your+application.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50">
 </p>
 
 <p align="center">

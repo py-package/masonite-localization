@@ -11,11 +11,11 @@ class Localization:
         self.session = app.make("session")
 
     def __get_locale(self):
-        if self.session.has("locale"):
-            locale = self.session.get("locale")
+        if self.session.has("localization"):
+            locale = self.session.get("localization")
         else:
-            locale = self.config.get("locale", "en")
-            self.session.set("locale", locale)
+            locale = self.config.get("localization", "en")
+            self.session.set("localization", locale)
         return locale
 
     def setup_view(self) -> None:
@@ -52,7 +52,7 @@ class Localization:
         return self.__get_locale()
 
     def set_locale(self, locale: str) -> None:
-        self.session.set("locale", locale)
+        self.session.set("localization", locale)
 
     def is_locale(self, locale: str) -> bool:
         return self.__get_locale() == locale

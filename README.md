@@ -85,9 +85,9 @@ from localization.facades import Localization
 Localization.is_locale('jp')
 ```
 
-**Using in template**
+**Retrieving Translations in Template**
 
-Imagine you have following data in `en.json` locale file.
+Imagine you have following translations in `en.json` locale file.
 ```json
 {
   "message": "Hello, World!",
@@ -97,7 +97,7 @@ Imagine you have following data in `en.json` locale file.
 }
 ```
 
-Then you can use above local as below in template.
+Then you can retrieve translation strings as below in template.
 
 ```jinja
 {{ __("message") }}

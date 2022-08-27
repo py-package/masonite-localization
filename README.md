@@ -1,7 +1,7 @@
 # masonite-localization
 
 <p align="center">
-    <img src="https://banners.beyondco.de/Masonite%20Localization.png?theme=light&packageManager=pip+install&packageName=masonite-localization&pattern=charlieBrown&style=style_2&description=Add multi-language support in your application.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50">
+    <img src="https://banners.beyondco.de/Masonite%20Localization.png?theme=light&packageManager=pip+install&packageName=masonite-localization&pattern=charlieBrown&style=style_2&description=Add+multi-language+support+in+your application.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50">
 </p>
 
 <p align="center">
@@ -57,7 +57,7 @@ The setup is very simple. Once you publish the package verify if there's a `lang
 
 By default you'll have `english` language setup in `config` which you can change. The locale can be changed on the fly as well.
 
-You can add as many language json files as you wish. For eg; if I need `Japanese` locale then, I will just copy everything from `en.json` file and then create new file named `jp.json` and then update the values in those json.
+You can add as many language json files as you wish. For eg; if  need `Japanese` locale then, I will just copy everything from `en.json` file and then create new file named `jp.json` and then update the values in those json.
 
 **Getting Current Locale**
 

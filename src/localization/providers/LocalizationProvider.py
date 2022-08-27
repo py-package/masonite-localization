@@ -23,8 +23,8 @@ class LocalizationProvider(PackageProvider):
             # create directory
             os.makedirs(locale_path, exist_ok=True)
             # copy files from stubs to above path
-            stub_path = os.path.join(Path(__file__).parent, "..", "stubs", "es.json")
-            shutil.copyfile(stub_path, os.path.join(locale_path, "es.json"))
+            stub_path = os.path.join(Path(__file__).parent, "..", "stubs", "en.json")
+            shutil.copyfile(stub_path, os.path.join(locale_path, "en.json"))
 
     def register(self):
         super().register()

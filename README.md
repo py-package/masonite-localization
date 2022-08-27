@@ -53,7 +53,13 @@ python craft package:publish localization
 
 ## Usage
 
-The setup is very simple. Once you publish the package verify if there's a `lang` directory in the root of your project or not, if not then create one and then create a json file named `en.json` put in some values in it and that's it.
+The setup is very simple. Once you publish the package verify if there's a `lang` directory in the root of your project or not, if not then create one and then create a json file named `en.json` put in some values in it or you can copy/paste following contents.
+
+```json
+{
+  "message": "Hello"
+}
+```
 
 By default you'll have `english` language setup in `config` which you can change. The locale can be changed on the fly as well.
 

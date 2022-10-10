@@ -63,7 +63,7 @@ The setup is very simple. Once you publish the package verify if there's a `lang
 
 By default you'll have `english` language setup in `config` which you can change. The locale can be changed on the fly as well.
 
-You can add as many language json files as you wish. For eg; if  need `Japanese` locale then, I will just copy everything from `en.json` file and then create new file named `jp.json` and then update the values in those json.
+You can add as many language json files as you wish. For eg; if need `Japanese` locale then, I will just copy everything from `en.json` file and then create new file named `jp.json` and then update the values in those json.
 
 **Getting Current Locale**
 
@@ -84,6 +84,7 @@ Localization.set_locale('jp')
 ```
 
 **Checking if current local matches**
+
 ```python
 from localization.facades import Localization
 
@@ -94,6 +95,7 @@ Localization.is_locale('jp')
 **Retrieving Translations in Template**
 
 Imagine you have following translations in `en.json` locale file.
+
 ```json
 {
   "message": "Hello, World!",
@@ -111,14 +113,6 @@ Then you can retrieve translation strings as below in template.
 {{ __("notification.message") }}
 ```
 
-## Contributing
-If you want to contribute then please feel free to `fork` and create `pr`. Also you can add your suggestions and issues.
-
-## Maintainers
-
-- [x] [Yubaraj Shrestha](https://www.github.com/py-package)
-
 ## License
 
 masonite-localization is open-sourced software licensed under the [MIT license](LICENSE).
-

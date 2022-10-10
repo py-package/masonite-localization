@@ -23,4 +23,3 @@ class TestLocalization(TestCase):
         Localization.set_locale('np')
         self.assertEqual(Localization.translation('greet'), 'नमस्ते')
         self.assertEqual(Localization.translation('address.street'), 'पेप्सिकोला')
-        

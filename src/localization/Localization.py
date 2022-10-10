@@ -21,11 +21,11 @@ class Localization:
     def setup_view(self) -> None:
         self.app.make("view").share(
             {
-                "__": self.__locale,
+                "__": self.translation,
             }
         )
 
-    def __locale(self, key: str) -> str:
+    def translation(self, key: str) -> str:
 
         if not key:
             return ""
